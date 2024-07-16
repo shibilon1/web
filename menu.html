@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Eatery Cafe and Restaurant Template</title>
+<!-- 
+
+Eatery Cafe Template 
+
+http://www.templatemo.com/tm-515-eatery
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+
+     <!-- MAIN CSS -->
+     <!-- MAIN CSS -->
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Eatery <span>.</span> Cafe</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="index.html" class="smoothScroll">Home</a></li>
+                         <li><a href="about.html" class="smoothScroll">About</a></li>
+                         <li><a href="#menu" class="smoothScroll">Menu</a></li>
+                         <li><a href="contact.html" class="smoothScroll">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <a href="#footer" class="section-btn">Reserve a table</a>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><br>
+
+	<section id="menu">
+	<!-- In a Bowl -->
+    <h2>In a Bowl</h2>
+    <div class="menuflex">
+        <!-- Sesame Noodles -->
+        <div class="menu-item" id="menu-item-sesameNoodles">
+            <img src="menuimg/menu1.jpg" alt="Sesame Noodles">
+            <h3>Sesame Noodles</h3>
+            <p>Delicious Asian-style noodles with sesame sauce.</p>
+            <p>$8.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('sesameNoodles', -1)">-</button>
+                <span id="sesameNoodles-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('sesameNoodles', 1)">+</button>
+            </div>
+            <button onclick="addToCart('sesameNoodles', 8.99, 'menuimg/menu1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Grilled Lime Salmon -->
+        <div class="menu-item" id="menu-item-grilledLimeSalmon">
+            <img src="menuimg/menu2.jpg" alt="Grilled Lime Salmon">
+            <h3>Grilled Lime Salmon with Avocado-Mango Salsa and Coconut Rice</h3>
+            <p>Grilled salmon topped with avocado-mango salsa, served with coconut rice.</p>
+            <p>$12.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('grilledLimeSalmon', -1)">-</button>
+                <span id="grilledLimeSalmon-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('grilledLimeSalmon', 1)">+</button>
+            </div>
+            <button onclick="addToCart('grilledLimeSalmon', 12.99, 'menuimg/menu2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Vegan Poke Bowl -->
+        <div class="menu-item" id="menu-item-veganPokeBowl">
+            <img src="menuimg/menu3.jpg" alt="Vegan Poke Bowl">
+            <h3>Vegan Poke Bowl</h3>
+            <p>A bowl of fresh vegetables, tofu, and rice in a savory dressing.</p>
+            <p>$10.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('veganPokeBowl', -1)">-</button>
+                <span id="veganPokeBowl-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('veganPokeBowl', 1)">+</button>
+            </div>
+            <button onclick="addToCart('veganPokeBowl', 10.99, 'menuimg/menu3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Dumpling -->
+    <h2>Dumpling</h2>
+    <div class="menuflex">
+        <!-- Blackberry Dumplings -->
+        <div class="menu-item" id="menu-item-blackberryDumplings">
+            <img src="menuimg/c1.jpg" alt="Blackberry Dumplings">
+            <h3>Blackberry Dumplings</h3>
+            <p>Sweet dumplings filled with blackberries.</p>
+            <p>$7.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('blackberryDumplings', -1)">-</button>
+                <span id="blackberryDumplings-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('blackberryDumplings', 1)">+</button>
+            </div>
+            <button onclick="addToCart('blackberryDumplings', 7.99, 'menuimg/c1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Mushroom Pierogi -->
+        <div class="menu-item" id="menu-item-mushroomPierogi">
+            <img src="menuimg/c2.jpg" alt="Mushroom Pierogi">
+            <h3>Mushroom Pierogi</h3>
+            <p>Traditional dumplings filled with savory mushrooms.</p>
+            <p>$6.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('mushroomPierogi', -1)">-</button>
+                <span id="mushroomPierogi-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('mushroomPierogi', 1)">+</button>
+            </div>
+            <button onclick="addToCart('mushroomPierogi', 6.99, 'menuimg/c2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Gyoza -->
+        <div class="menu-item" id="menu-item-gyoza">
+            <img src="menuimg/c3.jpg" alt="Gyoza">
+            <h3>Gyoza</h3>
+            <p>Japanese pan-fried dumplings with a savory filling.</p>
+            <p>$8.49</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('gyoza', -1)">-</button>
+                <span id="gyoza-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('gyoza', 1)">+</button>
+            </div>
+            <button onclick="addToCart('gyoza', 8.49, 'menuimg/c3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Juice -->
+    <h2>Juice</h2>
+    <div class="menuflex">
+        <!-- Vanilla Strawberry Iced Tea -->
+        <div class="menu-item" id="menu-item-vanillaStrawberryIcedTea">
+            <img src="menuimg/d1.jpg" alt="Vanilla Strawberry Iced Tea">
+            <h3>Vanilla Strawberry Iced Tea</h3>
+            <p>Refreshing iced tea with vanilla and strawberry flavors.</p>
+            <p>$4.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('vanillaStrawberryIcedTea', -1)">-</button>
+                <span id="vanillaStrawberryIcedTea-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('vanillaStrawberryIcedTea', 1)">+</button>
+            </div>
+            <button onclick="addToCart('vanillaStrawberryIcedTea', 4.99, 'menuimg/d1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Grilled Peach & Rosemary Prosecco -->
+        <div class="menu-item" id="menu-item-grilledPeachRosemaryProsecco">
+            <img src="menuimg/d2.jpg" alt="Grilled Peach & Rosemary Prosecco">
+            <h3>Grilled Peach & Rosemary Prosecco</h3>
+            <p>Grilled peaches served with rosemary-infused prosecco.</p>
+            <p>$9.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('grilledPeachRosemaryProsecco', -1)">-</button>
+                <span id="grilledPeachRosemaryProsecco-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('grilledPeachRosemaryProsecco', 1)">+</button>
+            </div>
+            <button onclick="addToCart('grilledPeachRosemaryProsecco', 9.99, 'menuimg/d2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Iced Green Tea -->
+        <div class="menu-item" id="menu-item-icedGreenTea">
+            <img src="menuimg/d3.jpg" alt="Iced Green Tea">
+            <h3>Iced Green Tea</h3>
+            <p>Cool and refreshing green tea served over ice.</p>
+            <p>$3.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('icedGreenTea', -1)">-</button>
+                <span id="icedGreenTea-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('icedGreenTea', 1)">+</button>
+            </div>
+            <button onclick="addToCart('icedGreenTea', 3.99, 'menuimg/d3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Soup -->
+    <h2>Soup</h2>
+    <div class="menuflex">
+        <!-- Cream of Mushroom Soup -->
+        <div class="menu-item" id="menu-item-creamOfMushroomSoup">
+            <img src="menuimg/e2.jpg" alt="Cream of Mushroom Soup">
+            <h3>Cream of Mushroom Soup</h3>
+            <p>Smooth and creamy soup made with mushrooms.</p>
+            <p>$6.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('creamOfMushroomSoup', -1)">-</button>
+                <span id="creamOfMushroomSoup-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('creamOfMushroomSoup', 1)">+</button>
+            </div>
+            <button onclick="addToCart('creamOfMushroomSoup', 6.99, 'menuimg/e2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Wonton Soup -->
+        <div class="menu-item" id="menu-item-wontonSoup">
+            <img src="menuimg/e3.jpg" alt="Wonton Soup">
+            <h3>Wonton Soup</h3>
+            <p>Clear broth soup with wontons filled with meat or vegetables.</p>
+            <p>$5.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('wontonSoup', -1)">-</button>
+                <span id="wontonSoup-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('wontonSoup', 1)">+</button>
+            </div>
+            <button onclick="addToCart('wontonSoup', 5.99, 'menuimg/e3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Tom Yum Soup -->
+        <div class="menu-item" id="menu-item-tomYumSoup">
+            <img src="menuimg/e4.jpg" alt="Tom Yum Soup">
+            <h3>Tom Yum Soup</h3>
+            <p>Spicy and sour Thai soup with shrimp and lemongrass.</p>
+            <p>$7.49</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('tomYumSoup', -1)">-</button>
+                <span id="tomYumSoup-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('tomYumSoup', 1)">+</button>
+            </div>
+            <button onclick="addToCart('tomYumSoup', 7.49, 'menuimg/e4.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Main Dish -->
+    <h2>Main Dish</h2>
+    <div class="menuflex">
+        <!-- Roasted Pork Tenderloin -->
+        <div class="menu-item" id="menu-item-roastedPorkTenderloin">
+            <img src="menuimg/i1.jpg" alt="Roasted Pork Tenderloin">
+            <h3>Roasted Pork Tenderloin</h3>
+            <p>Tender pork tenderloin roasted to perfection.</p>
+            <p>$14.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('roastedPorkTenderloin', -1)">-</button>
+                <span id="roastedPorkTenderloin-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('roastedPorkTenderloin', 1)">+</button>
+            </div>
+            <button onclick="addToCart('roastedPorkTenderloin', 14.99, 'menuimg/i1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Steak with Red Wine Sauce -->
+        <div class="menu-item" id="menu-item-steakRedWineSauce">
+            <img src="menuimg/i2.jpg" alt="Steak with Red Wine Sauce">
+            <h3>Steak with Red Wine Sauce</h3>
+            <p>Juicy steak served with a rich red wine reduction sauce.</p>
+            <p>$18.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('steakRedWineSauce', -1)">-</button>
+                <span id="steakRedWineSauce-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('steakRedWineSauce', 1)">+</button>
+            </div>
+            <button onclick="addToCart('steakRedWineSauce', 18.99, 'menuimg/i2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Filet Mignon with Shrimp and Lobster Cream Sauce -->
+        <div class="menu-item" id="menu-item-filetMignonShrimpLobsterCreamSauce">
+            <img src="menuimg/i3.jpg" alt="Filet Mignon with Shrimp and Lobster Cream Sauce">
+            <h3>Filet Mignon with Shrimp and Lobster Cream Sauce</h3>
+            <p>Tender filet mignon topped with shrimp and lobster cream sauce.</p>
+            <p>$24.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('filetMignonShrimpLobsterCreamSauce', -1)">-</button>
+                <span id="filetMignonShrimpLobsterCreamSauce-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('filetMignonShrimpLobsterCreamSauce', 1)">+</button>
+            </div>
+            <button onclick="addToCart('filetMignonShrimpLobsterCreamSauce', 24.99, 'menuimg/i3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+		<h2>Dessert</h2>
+<div class="menuflex">
+    <!-- Caramel Brownie Cheesecake -->
+    <div class="menu-item" id="menu-item-caramelBrownieCheesecake">
+        <img src="menuimg/k1.jpg" alt="Caramel Brownie Cheesecake">
+        <h3>Caramel Brownie Cheesecake</h3>
+        <p>Decadent cheesecake with caramel and brownie chunks.</p>
+        <p>$7.99</p>
+        <div class="quantity-controls">
+            <button onclick="changeMenuItemQuantity('caramelBrownieCheesecake', -1)">-</button>
+            <span id="caramelBrownieCheesecake-menu-quantity">0</span>
+            <button onclick="changeMenuItemQuantity('caramelBrownieCheesecake', 1)">+</button>
+        </div>
+        <button onclick="addToCart('caramelBrownieCheesecake', 7.99, 'menuimg/k1.jpg')" class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Black Forest Cheesecake -->
+    <div class="menu-item" id="menu-item-blackForestCheesecake">
+        <img src="menuimg/k2.jpg" alt="Black Forest Cheesecake">
+        <h3>Black Forest Cheesecake</h3>
+        <p>Cheesecake with layers of chocolate and cherry flavors.</p>
+        <p>$8.99</p>
+        <div class="quantity-controls">
+            <button onclick="changeMenuItemQuantity('blackForestCheesecake', -1)">-</button>
+            <span id="blackForestCheesecake-menu-quantity">0</span>
+            <button onclick="changeMenuItemQuantity('blackForestCheesecake', 1)">+</button>
+        </div>
+        <button onclick="addToCart('blackForestCheesecake', 8.99, 'menuimg/k2.jpg')" class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <!-- Mint Chip Cheesecake -->
+    <div class="menu-item" id="menu-item-mintChipCheesecake">
+        <img src="menuimg/k3.jpg" alt="Mint Chip Cheesecake">
+        <h3>Mint Chip Cheesecake Mousse</h3>
+        <p>Light and fluffy cheesecake mousse with mint and chocolate chips.</p>
+        <p>$7.99</p>
+        <div class="quantity-controls">
+            <button onclick="changeMenuItemQuantity('mintChipCheesecake', -1)">-</button>
+            <span id="mintChipCheesecake-menu-quantity">0</span>
+            <button onclick="changeMenuItemQuantity('mintChipCheesecake', 1)">+</button>
+        </div>
+        <button onclick="addToCart('mintChipCheesecake', 7.99, 'menuimg/k3.jpg')" class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+		<!-- Pasta -->
+    <h2>Pasta</h2>
+    <div class="menuflex">
+        <!-- Fettuccine Alfredo With Shrimp -->
+        <div class="menu-item" id="menu-item-fettuccineAlfredoShrimp">
+            <img src="menuimg/p1.jpg" alt="Fettuccine Alfredo With Shrimp">
+            <h3>Fettuccine Alfredo With Shrimp</h3>
+            <p>Creamy fettuccine pasta with shrimp in Alfredo sauce.</p>
+            <p>$12.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('fettuccineAlfredoShrimp', -1)">-</button>
+                <span id="fettuccineAlfredoShrimp-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('fettuccineAlfredoShrimp', 1)">+</button>
+            </div>
+            <button onclick="addToCart('fettuccineAlfredoShrimp', 12.99, 'menuimg/p1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Chicken Pasta -->
+        <div class="menu-item" id="menu-item-chickenPasta">
+            <img src="menuimg/p2.jpg" alt="Chicken Pasta">
+            <h3>Chicken Pasta</h3>
+            <p>Pasta tossed with tender chicken and a flavorful sauce.</p>
+            <p>$11.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('chickenPasta', -1)">-</button>
+                <span id="chickenPasta-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('chickenPasta', 1)">+</button>
+            </div>
+            <button onclick="addToCart('chickenPasta', 11.99, 'menuimg/p2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Creamy Cajun Shrimp Pasta -->
+        <div class="menu-item" id="menu-item-creamyCajunShrimpPasta">
+            <img src="menuimg/p3.jpg" alt="Creamy Cajun Shrimp Pasta">
+            <h3>Creamy Cajun Shrimp Pasta</h3>
+            <p>Pasta with Cajun-seasoned shrimp in a creamy sauce.</p>
+            <p>$13.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('creamyCajunShrimpPasta', -1)">-</button>
+                <span id="creamyCajunShrimpPasta-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('creamyCajunShrimpPasta', 1)">+</button>
+            </div>
+            <button onclick="addToCart('creamyCajunShrimpPasta', 13.99, 'menuimg/p3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Salad -->
+    <h2>Salad</h2>
+    <div class="menuflex">
+        <!-- Vegan Greek Salad -->
+        <div class="menu-item" id="menu-item-veganGreekSalad">
+            <img src="menuimg/s1.jpg" alt="Vegan Greek Salad">
+            <h3>Vegan Greek Salad</h3>
+            <p>Fresh salad with vegetables, olives, and tofu feta.</p>
+            <p>$9.49</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('veganGreekSalad', -1)">-</button>
+                <span id="veganGreekSalad-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('veganGreekSalad', 1)">+</button>
+            </div>
+            <button onclick="addToCart('veganGreekSalad', 9.49, 'menuimg/s1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Grilled Corn Salad -->
+        <div class="menu-item" id="menu-item-grilledCornSalad">
+            <img src="menuimg/s2.jpg" alt="Grilled Corn Salad">
+            <h3>Grilled Corn Salad</h3>
+            <p>Salad with grilled corn, vegetables, and a tangy dressing.</p>
+            <p>$7.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('grilledCornSalad', -1)">-</button>
+                <span id="grilledCornSalad-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('grilledCornSalad', 1)">+</button>
+            </div>
+            <button onclick="addToCart('grilledCornSalad', 7.99, 'menuimg/s2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Corn Salad With Mango and Halloumi -->
+        <div class="menu-item" id="menu-item-cornSaladMangoHalloumi">
+            <img src="menuimg/s3.jpg" alt="Corn Salad With Mango and Halloumi">
+            <h3>Corn Salad With Mango and Halloumi</h3>
+            <p>Salad with sweet corn, mango, and grilled halloumi cheese.</p>
+            <p>$8.49</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('cornSaladMangoHalloumi', -1)">-</button>
+                <span id="cornSaladMangoHalloumi-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('cornSaladMangoHalloumi', 1)">+</button>
+            </div>
+            <button onclick="addToCart('cornSaladMangoHalloumi', 8.49, 'menuimg/s3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Cocktail -->
+    <h2>Cocktail</h2>
+    <div class="menuflex">
+        <!-- Recette de Cocktail Fruit'tea -->
+        <div class="menu-item" id="menu-item-fruitTeaCocktail">
+            <img src="menuimg/w1.jpg" alt="Recette de Cocktail Fruit'tea">
+            <h3>Recette de Cocktail Fruit'tea</h3>
+            <p>Fruit-infused cocktail recipe.</p>
+            <p>$7.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('fruitTeaCocktail', -1)">-</button>
+                <span id="fruitTeaCocktail-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('fruitTeaCocktail', 1)">+</button>
+            </div>
+            <button onclick="addToCart('fruitTeaCocktail', 7.99, 'menuimg/w1.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Sonoma-Cutrer -->
+        <div class="menu-item" id="menu-item-sonomaCutrer">
+            <img src="menuimg/w2.jpg" alt="Sonoma-Cutrer">
+            <h3>Sonoma-Cutrer</h3>
+            <p>Premium wine from Sonoma County.</p>
+            <p>$29.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('sonomaCutrer', -1)">-</button>
+                <span id="sonomaCutrer-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('sonomaCutrer', 1)">+</button>
+            </div>
+            <button onclick="addToCart('sonomaCutrer', 29.99, 'menuimg/w2.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Luigi Bosca -->
+        <div class="menu-item" id="menu-item-luigiBosca">
+            <img src="menuimg/w3.jpg" alt="Luigi Bosca">
+            <h3>Luigi Bosca</h3>
+            <p>High-quality wine from Luigi Bosca vineyard.</p>
+            <p>$34.99</p>
+            <div class="quantity-controls">
+                <button onclick="changeMenuItemQuantity('luigiBosca', -1)">-</button>
+                <span id="luigiBosca-menu-quantity">0</span>
+                <button onclick="changeMenuItemQuantity('luigiBosca', 1)">+</button>
+            </div>
+            <button onclick="addToCart('luigiBosca', 34.99, 'menuimg/w3.jpg')" class="add-to-cart">Add to Cart</button>
+        </div>
+		</div>
+
+	</section>
+		
+
+
+    <!-- Cart Button -->
+   <button id="cart-button" onclick="toggleCart()">Cart</button>
+
+        <!-- Cart Section -->
+        <div id="cart" style="display: none;">
+            <h2>Your Cart</h2>
+			<div>
+        <span>Total: $</span><span id="cart-total">0.00</span>
+    </div>
+            <ul id="cart-items"></ul>
+            <ul id="cart-total"></ul>
+            <button onclick="checkout()">Checkout</button>
+        </div>
+
+        <!-- Checkout Popup -->
+        <div id="checkout-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closeCheckoutPopup()">&times;</span>
+                <h2>Checkout</h2>
+                <form>
+                    <div>
+                        <label><input type="radio" name="order-type" value="pickup" onclick="toggleDeliveryFields()"> Pickup</label>
+                        <label><input type="radio" name="order-type" value="delivery" onclick="toggleDeliveryFields()"> Delivery</label>
+                    </div>
+                    <div id="delivery-fields" style="display: none;">
+                        <label for="delivery-address">Delivery Address:</label>
+                        <input type="text" id="delivery-address" name="delivery-address">
+                        <label for="contact-number">Contact Number:</label>
+                        <input type="text" id="contact-number" name="contact-number">
+                    </div>
+                    <h3>Payment Method</h3>
+                    <div>
+                        <label><input type="radio" name="payment-method" value="paypal"> PayPal</label>
+                        <label><input type="radio" name="payment-method" value="gcash"> GCash</label>
+                        <label><input type="radio" name="payment-method" value="maya"> Maya</label>
+                        <label><input type="radio" name="payment-method" value="card"> Card</label>
+                        <label><input type="radio" name="payment-method" value="cod"> Cash on Delivery</label>
+                    </div>
+                    <button type="button" onclick="placeOrder()">Place Order</button>
+                </form>
+            </div>
+        </div>
+	
+    
+
+    <script src="script.js"></script>
+	<script src="cart.js"></script>
+
+</body>
+</html>
+
+
+
+   
+
+     <!-- FOOTER -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Find us</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>123 nulla a cursus rhoncus,<br> augue sem viverra 10870<br>id ultricies sapien</p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Reservation</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>090-080-0650 | 090-070-0430</p>
+                                   <p><a href="mailto:info@company.com">info@company.com</a></p>
+                                   <p>LINE: eatery247 </p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-8">
+                         <div class="footer-info footer-open-hour">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
+                              </div>
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Monday: Closed</p>
+                                   <div>
+                                        <strong>Tuesday to Friday</strong>
+                                        <p>7:00 AM - 9:00 PM</p>
+                                   </div>
+                                   <div>
+                                        <strong>Saturday - Sunday</strong>
+                                        <p>11:00 AM - 10:00 PM</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4">
+                         <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                              <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                              <li><a href="#" class="fa fa-twitter"></a></li>
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                              <li><a href="#" class="fa fa-google"></a></li>
+                         </ul>
+
+                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
+                              <p><br>Copyright &copy; 2018 <br>Your Company Name 
+                              
+                              <br><br>Design: TemplateMo</p>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
